@@ -16,7 +16,7 @@ print("4. Melyik volt a legnagyobb dobás a 10-nél kisebbek közül, és hánya
 under_10 = [(value, idx) for idx, value in enumerate(dice_rolls) if value < 10]
 if under_10:
     max_under_10 = max(under_10, key=lambda x: x[0])
-    print(f"A legnagyobb dobás a 10-nél kisebbek közül: {max_under_10[0]} (ami a(z) {max_under_10[1] + 1}. dobás volt).")
+    print(f"A legnagyobb dobás a 10-nél kisebbek közül: a {max_under_10[0]}, ami a(z) {max_under_10[1] + 1}. dobás volt.")
 else:
     print("Nem volt 10-nél kisebb dobás.")
 
