@@ -12,3 +12,5 @@ Minden feladat előtt a program írja ki a feladat sorszámát!
 import random
 
 dice_rolls = [random.randint(1, 20) for _ in range(100)]
+
+print(f"A dobott számok: {dice_rolls}")
