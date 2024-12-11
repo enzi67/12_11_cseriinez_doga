@@ -14,7 +14,7 @@ dice_rolls = [random.randint (1, 20) for roll in range (100)]
 
 print("1. Volt-e 6-os a dobások között?")
 if 6 in dice_rolls:
-    print("Volt 6-os a dobások között.")
+    print(f"Volt 6-os a dobások között, méghozzá {dice_rolls.count(6)} db.")
 else:
     print("Nem volt 6-os a dobások között.")
 
